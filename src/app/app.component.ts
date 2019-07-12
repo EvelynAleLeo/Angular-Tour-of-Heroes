@@ -14,4 +14,8 @@ export class AppComponent {
   onLogoClicked() {
     alert('Hello there!');
   }
+
+  changeText(newtext: string) {
+    this.data.title = newtext;
+  }
 }
