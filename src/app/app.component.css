@@ -1,5 +1,6 @@
-h1 {
-    color: #369;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 250%;
-  }
+input.demo {
+  border: 2px solid black;
+  width: 300px;
+  height: 30px;
+  font-size: 25px;
+}

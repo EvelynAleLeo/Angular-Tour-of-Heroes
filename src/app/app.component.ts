@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'My Angular App';
-  subTitle = 'Evelyn B. C.';
 
+  data = {
+    title: 'My Angular App'
+  };
+
+  onLogoClicked() {
+    alert('Hello there!');
+  }
 }
